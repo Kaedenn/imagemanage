@@ -9,6 +9,7 @@
 #   python -m venv $HOME/.venvs/imagemanage
 #   direnv allow .
 #   cp .envrc-sample .envrc
+#   pip install -r requirements.txt
 #
 # Now, every time you enter this directory, you'll have a working self-
 # contained virtual environment.
