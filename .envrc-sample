@@ -1,0 +1,17 @@
+# Sample direnv script demonstrating how to load a Python virtual environment
+# automatically upon entering this directory.
+#
+# Follow these steps to get started. Feel free to change the path to the
+# virtual environment ("$HOME/.venvs/imagemanage") to whatever you like, but
+# be sure you also modify the single `source` line below.
+#
+#   mkdir -p $HOME/.venvs/imagemanage
+#   python -m venv $HOME/.venvs/imagemanage
+#   direnv allow .
+#   cp .envrc-sample .envrc
+#
+# Now, every time you enter this directory, you'll have a working self-
+# contained virtual environment.
+
+source $HOME/.venvs/imagemanage/bin/activate
+
